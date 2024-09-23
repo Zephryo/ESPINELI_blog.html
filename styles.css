@@ -21,7 +21,7 @@
 
 body {
     font-family: Arial, sans-serif; /* Default font for the body */
-    margin: 30px; /* Remove default margin from body */
+    margin: 20px; /* Add margin around the whole page */
     padding: 0; /* Remove default padding from body */
 }
 
@@ -53,23 +53,19 @@ nav ul li a {
 /* Set H1 font color to blue */
 h1 {
     color: blue;
+    margin: 20px 0; /* Add margin above and below */
 }
 
-/* Set all other heading colors to red */
+/* Set all other heading colors to red and add spacing */
 h2, h3, h4, h5, h6 {
     color: red; /* Ensure all other headings are red */
+    margin: 15px 0; /* Add margin above and below */
 }
 
 /* Paragraphs with space and increased font size */
 p {
-    margin: 10px 0; /* Add space above and below paragraphs */
+    margin: 15px 0; /* Add margin above and below paragraphs */
     font-size: 18px; /* Increase font size for paragraphs */
-}
-/* Ensure the content fills the full width */
-.container {
-    width: 100%; /* Full width */
-    padding: 0; /* No padding */
-    margin: 0; /* No margin */
 }
 
 /* Center all images and set a fixed size */
@@ -84,6 +80,9 @@ img {
 footer {
     text-align: center; /* Center footer text */
     padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
     margin: 0; /* Remove margin */
 }
 
