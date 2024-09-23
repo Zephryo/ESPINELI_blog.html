@@ -1,95 +1,36 @@
-/* Background colors for different pages */
-.page-powderblue {
-    background-color: powderblue;
-}
-
-.page-yellow {
-    background-color: yellow;
-}
-
-.page-orange {
-    background-color: orange;
-}
-
-.page-green {
-    background-color: green;
-}
-
-.page-brown {
-    background-color: brown;
-}
-
-body {
-    font-family: Arial, sans-serif; 
-    margin: 0; 
-    padding: 0; 
-}
-
-.container {
-    max-width: 800px; 
-    margin: 20px auto; 
-    text-align: center; 
-}
-
 /* Navigation styling */
 nav {
-    background-color: #333; 
-    width: 100%; 
-    padding: 10px 0; 
+    background-color: #333; /* Background color of the nav */
+    width: 100%; /* Ensure the nav fills the full width */
+    padding: 10px 0; /* Add padding to the top and bottom */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for depth */
 }
 
 nav ul {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-    display: flex; 
-    justify-content: space-around; 
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Distribute items evenly */
 }
 
 nav ul li {
-    margin: 0; 
+    margin: 0; /* Remove margins from list items */
 }
 
 nav ul li a {
-    color: white; 
-    text-decoration: none; 
-    padding: 15px 20px; 
-    display: block; 
-    text-align: center; 
-    border: 2px solid transparent; 
-    border-radius: 5px; 
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    padding: 15px 20px; /* Add padding for clickable area */
+    display: block; /* Make the link a block element */
+    text-align: center; /* Center the text in the links */
+    border: 2px solid transparent; /* Add a border for the rectangle effect */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, border 0.3s; /* Smooth transition for hover */
 }
 
 nav ul li a:hover {
-    background-color: #555; 
-    border: 2px solid white; 
-}
-
-h1 {
-    color: blue;
-    margin: 20px 0; 
-}
-
-h2, h3, h4, h5, h6 {
-    color: red;
-    margin: 15px 0; 
-}
-
-p {
-    margin: 15px 0; 
-    font-size: 18px; 
-}
-
-img {
-    display: block;
-    margin: 0 auto; 
-    width: 300px;   
-    height: auto;  
-}
-
-footer {
-    text-align: center; 
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
+    background-color: #555; /* Change background on hover */
+    border: 2px solid white; /* Change border color on hover */
 }
 
