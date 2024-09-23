@@ -21,7 +21,7 @@
 
 body {
     font-family: Arial, sans-serif; /* Default font for the body */
-    margin: 0; /* Remove default margin from body */
+    margin: 30px; /* Remove default margin from body */
     padding: 0; /* Remove default padding from body */
 }
 
