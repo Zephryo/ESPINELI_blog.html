@@ -1,0 +1,43 @@
+/* Background colors for different pages */
+.page-powderblue {
+    background-color: powderblue;
+}
+
+.page-yellow {
+    background-color: yellow;
+}
+
+.page-orange {
+    background-color: orange;
+}
+
+.page-green {
+    background-color: green;
+}
+
+.page-brown {
+    background-color: brown;
+}
+
+/* Set H1 font color to blue */
+h1 {
+    color: blue;
+}
+
+/* Set all other heading colors to red */
+h2, h3, h4, h5, h6 {
+    color: red;
+}
+
+/* Center all images and set a fixed size */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
