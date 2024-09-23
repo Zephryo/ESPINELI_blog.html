@@ -21,14 +21,14 @@
 
 /* Set H1 font color to blue */
 h1 {
-    color: blue;
     font-family: 'Georgia', serif;
+    color: blue;
 }
 
 /* Set all other heading colors to red */
 h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
     color: red;
-    font-family: 'Arial', sans-serif;
 }
 
 /* Center all images and set a fixed size */
