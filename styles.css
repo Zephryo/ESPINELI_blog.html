@@ -21,9 +21,8 @@
 
 body {
     font-family: Arial, sans-serif; /* Default font for the body */
-    margin: 0; /* Remove default margin from body */
-    padding: 0; /* Remove default padding from body */
-}
+    margin: 20px; 
+    padding: 20px; 
 
 /* Navigation styling */
 nav {
@@ -33,8 +32,8 @@ nav {
 
 nav ul {
     list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
+    padding: 20px; /* Remove default padding */
+    margin: 20px; /* Remove default margin */
     display: flex; /* Use flexbox for horizontal layout */
 }
 
@@ -53,22 +52,22 @@ nav ul li a {
 /* Align text to the left for all headers and paragraphs */
 h1, h2, h3, p {
     text-align: left; /* Align text to the left */
-    margin: 0; /* Remove margins from headers and paragraphs */
-    padding: 0; /* Remove padding */
+    margin: 20px; /* Remove margins from headers and paragraphs */
+    padding: 20px; /* Remove padding */
 }
 
 /* Ensure the content fills the full width */
 .container {
     width: 100%; /* Full width */
-    padding: 0; /* No padding */
-    margin: 0; /* No margin */
+    padding: 20px; /* No padding */
+    margin: 20px; /* No margin */
 }
 
 /* Center all images and set a fixed size */
 img {
     display: block;
     margin: 0; /* Remove any margins */
-    width: 100%; /* Set to full width, change as needed */
+    width: 50%; /* Set to full width, change as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
