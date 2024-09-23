@@ -21,8 +21,15 @@
 
 body {
     font-family: Arial, sans-serif; /* Default font for the body */
-    margin: 20px; /* Add margin around the whole page */
+    margin: 0; /* Remove default margin from body */
     padding: 0; /* Remove default padding from body */
+}
+
+/* Main container styling to center content */
+.container {
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 20px auto; /* Center the container and add top/bottom margin */
+    text-align: center; /* Center text inside the container */
 }
 
 /* Navigation styling */
@@ -82,7 +89,3 @@ footer {
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
 }
-
-    margin: 0; /* Remove margin */
-}
-
