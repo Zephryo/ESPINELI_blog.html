@@ -33,10 +33,44 @@ h2, h3, h4, h5, h6 {
 img {
     display: block;
     margin: 0 auto;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
+    width: 300px;   /* Set width */
+    height: auto;   /* Maintain aspect ratio */
 }
+
+/* Navigation styling */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #111; /* Change background on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
 
 body {
 font-family: Arial, sans-serif;
