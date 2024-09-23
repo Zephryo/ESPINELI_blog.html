@@ -60,6 +60,11 @@ h2, h3, h4, h5, h6 {
     color: red; /* Ensure all other headings are red */
 }
 
+/* Paragraphs with space and increased font size */
+p {
+    margin: 10px 0; /* Add space above and below paragraphs */
+    font-size: 18px; /* Increase font size for paragraphs */
+}
 /* Ensure the content fills the full width */
 .container {
     width: 100%; /* Full width */
