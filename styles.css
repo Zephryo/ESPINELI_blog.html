@@ -58,7 +58,7 @@ h1, h2, h3, p {
 
 /* Ensure the content fills the full width */
 .container {
-    width: 100%; /* Full width */
+    width: 80%; /* Full width */
     padding: 20px; /* No padding */
     margin: 20px; /* No margin */
 }
