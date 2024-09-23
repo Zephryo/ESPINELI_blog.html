@@ -52,8 +52,7 @@ nav ul li a {
 
 /* Align text to the left for all headers and paragraphs */
 h1, h2, h3, p {
-    margin: 0; /* Remove margins from headings and paragraphs */
-    padding: 0; /* Remove padding */
+
     text-align: left; /* Align text to the left */
 }
 
