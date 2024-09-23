@@ -22,11 +22,13 @@
 /* Set H1 font color to blue */
 h1 {
     color: blue;
+    font-family: 'Georgia', serif;
 }
 
 /* Set all other heading colors to red */
 h2, h3, h4, h5, h6 {
     color: red;
+    font-family: 'Arial', sans-serif;
 }
 
 /* Center all images and set a fixed size */
@@ -74,5 +76,8 @@ footer {
 
 
 body {
-font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* Default font for the body */
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* Add some padding */
 }
