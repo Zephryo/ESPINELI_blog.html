@@ -19,6 +19,12 @@
     background-color: brown;
 }
 
+body {
+    font-family: Arial, sans-serif; /* Default font for the body */
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* Add some padding */
+}
 /* Set H1 font color to blue */
 h1 {
     font-family: 'Georgia', serif;
@@ -75,9 +81,3 @@ footer {
 }
 
 
-body {
-    font-family: Arial, sans-serif; /* Default font for the body */
-    max-width: 800px; /* Set a maximum width for the content */
-    margin: 0 auto; /* Center the content */
-    padding: 20px; /* Add some padding */
-}
